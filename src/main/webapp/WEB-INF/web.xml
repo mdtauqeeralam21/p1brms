@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description></description>
+    <display-name>DeleteBus</display-name>
+    <servlet-name>DeleteBus</servlet-name>
+    <servlet-class>com.revature.DeleteBus</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteBus</servlet-name>
+    <url-pattern>/DeleteBus</url-pattern>
+  </servlet-mapping>
+  <display-name>p1-brms</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>DeleteBusServlet</display-name>
+    <servlet-name>DeleteBusServlet</servlet-name>
+    <servlet-class>com.revature.DeleteBus</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteBusServlet</servlet-name>
+    <url-pattern>/DeleteBusServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteBusDetails</display-name>
+    <servlet-name>DeleteBusDetails</servlet-name>
+    <servlet-class>com.revature.DeleteBus</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteBusDetails</servlet-name>
+    <url-pattern>/DeleteBusDetails</url-pattern>
+  </servlet-mapping>
+</web-app>
